@@ -1,17 +1,19 @@
 <template>
   <div>
     <Header/>
-    <Nuxt/>
+    <nuxt/>
   </div>
 </template>
 
-<style>
-
-</style>
 <script>
 import Header from "~/components/Header";
 
 export default {
+  name: "users",
   components: {Header}
 }
 </script>
+
+<style scoped>
+
+</style>
